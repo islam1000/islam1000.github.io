@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+}
+
+#up {
+  height: 0px;
+  position: absolute;
+  top: 0px;
+}
+
+.back {
+  height: 4000px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: -99;
+}
+
+.back1 {
+  background-image: url("../_images/small1.png");
+  background-repeat: repeat;
+  background-size: 200px , auto;
+  z-index: -99;
+}
+
+.back2 {
+  background-image: url("../_images/med1.png");
+  background-repeat: repeat;
+  background-size: 300px , auto;
+  z-index: -98;
+}
+
+.back3 {
+  background-repeat: repeat;
+  background-image: url(../_images/large.png);
+  background-size: 400px auto;
+  z-index: -97;
+  /*background-color: red;*/
+}
+
+.header-lg {
+  position: relative;
+  background-color: blue;
+  height: 100%;
+}
+
+.strt {
+  position: absolute;
+  transform-origin: center;
+  left: 50%;
+  bottom: 10%;
+  -ms-transform: translateX(-40px);
+  /* IE 9 */
+  -webkit-transform: translateX(-40px);
+  /* Chrome, Safari, Opera */
+  transform: translateX(-40px);
+}
+
+.header-sm {
+  background-color: pink;
+  height: 200px;
+}
+
+.header-xs {
+  background-color: blue;
+  height: 200px;
+}
+
+.side-nav {
+  background-color: #3b3b3b;
+  height: 7000px;
+}
+
+.atricle {
+  background-color: green;
+  height: 700px;
+}
+
+.col-sm-12 {
+  display: block;
+}
